@@ -3,6 +3,8 @@
 
 // It is recurrance relation ,so it have overlapping subproblem
 // Hence we will use Dynamic Programming approch to do this
+
+// This is bottom up approch
 #include<bits//stdc++.h>
 using namespace std;
 
@@ -13,7 +15,7 @@ vector<vector<int>> binomialCoefficient(int n,int k){
              if(j==0 || j==i){
                  table[i][j] =1;
              }else{
-                 table[i][j] = table[i-1][j-1] + table[i-1][j];
+                 table[i][j] = table[i-1][j-1] + table[i-1][j];  //put modulo here if given large number
              }
         }
     }

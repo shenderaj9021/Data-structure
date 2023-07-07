@@ -24,7 +24,7 @@ int main(){
 
     float prob_diff_bady = 1;
     while(prob_diff_bady>0.5){
-        prob_diff_bady = prob_diff_bady*(num/denom);
+        prob_diff_bady = prob_diff_bady*(num/denom);>>
         cout<<"People "<<people<<" Prob: "<<prob_diff_bady<<endl;
         num--;
         people++;
@@ -32,3 +32,5 @@ int main(){
     cout<<"final ans "<<people<<endl;
     return 0;
 }
+
+// also we can take prob as input from user
