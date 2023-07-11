@@ -16,6 +16,9 @@ for (; j < N; ++j) {
 }
 return j - i; // There must be a maximum window of size `j - i`.
 
+
+
+
 // Shrinkable 
 
 int N ;   // size of array 

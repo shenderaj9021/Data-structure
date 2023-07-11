@@ -1,6 +1,9 @@
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
+// 3. Longest Substring Without Repeating Characters
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+#include <bits//stdc++.h>
+using namespace std;
+ int lengthOfLongestSubstring(string s) {
         int i=0;
         int j=0;
         int ans =0;
@@ -17,4 +20,8 @@ public:
         }
         return ans;
     }
-};
+int main()
+{
+    string s = "abcabcbb";
+    cout<<lengthOfLongestSubstring(s);
+}
